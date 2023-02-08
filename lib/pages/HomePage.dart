@@ -15,7 +15,6 @@ class HomePage extends StatelessWidget {
       body: ListView(children: [
         HomeAppBar(),
         Container(
-          height: 500,
           padding: EdgeInsets.only(top: 15),
           decoration: BoxDecoration(
             color: Color(0xffedecf2),
