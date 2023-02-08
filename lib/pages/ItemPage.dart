@@ -6,6 +6,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 import '../widgets/ItemAppBar.dart';
+import '../widgets/ItemBottomNavBar.dart';
 
 class ItemPage extends StatelessWidget {
   ItemPage({super.key});
@@ -239,6 +240,7 @@ class ItemPage extends StatelessWidget {
           ),
         ],
       ),
+      bottomNavigationBar: const ItemBottomNavBar(),
     );
   }
 }
