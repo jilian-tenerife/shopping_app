@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_app/pages/cartPage.dart';
 
 import 'pages/HomePage.dart';
 
@@ -17,7 +18,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
       ),
-      routes: {"/": (context) => HomePage()},
+      routes: {
+        "/": (context) => HomePage(),
+        "cartPage": (context) => CartPage(),
+      },
     );
   }
 }
