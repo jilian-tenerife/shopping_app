@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
 import '../widgets/CartAppBar.dart';
+import '../widgets/CartBottomNavBar.dart';
 import '../widgets/CartItemSample.dart';
 
 class CartPage extends StatelessWidget {
